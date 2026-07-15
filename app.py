@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from utils import calendar_data, data_fetch, metrics
+import calendar_data, data_fetch, metrics
 
 st.set_page_config(page_title="Options Dashboard", layout="wide")
 
