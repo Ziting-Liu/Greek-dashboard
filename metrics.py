@@ -15,7 +15,7 @@ big assumptions, spelled out because they drive the sign of every result:
 import numpy as np
 import pandas as pd
 
-from .black_scholes import gamma as bs_gamma
+from black_scholes import gamma as bs_gamma
 
 CONTRACT_MULTIPLIER = 100
 
